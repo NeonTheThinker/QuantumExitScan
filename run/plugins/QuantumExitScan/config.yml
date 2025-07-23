@@ -1,0 +1,35 @@
+# Configuración de QuantumExitScan
+
+# Radio de detección de entidades (en bloques)
+detection-radius: 10
+
+# Umbral de vida baja (si el jugador tiene esta vida o menos, se mostrará "No Life")
+low-life-threshold: 10
+
+# Configuración de seguimiento
+tracking:
+  effects: true
+  environmental: true
+  fall-damage: true
+
+# Lista de efectos negativos que generarán advertencias
+negative-effects:
+  - minecraft:poison
+  - minecraft:wither
+  - minecraft:weakness
+  - minecraft:slowness
+  - minecraft:blindness
+  - minecraft:hunger
+
+# Configuración de advertencias
+warnings:
+  enabled: true
+  conditions:
+    low-life: 10
+    entities: 10
+    tracking-entities: 2
+    negative-effects: true
+    status-player: true
+
+# Mostrar información detallada de las entidades en consola
+debug: false

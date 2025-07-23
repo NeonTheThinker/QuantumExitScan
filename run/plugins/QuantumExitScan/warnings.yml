@@ -1,0 +1,21 @@
+history:
+- timestamp: 1753231169
+  player: NeonTheThinker
+  uuid: 42f5e18b-a381-4620-ba73-1416b5cd1b94
+  reason: Vida baja (4/20), 5 hostiles persiguiendo
+  location: world, -30, 65, 5
+  health: 4/20
+  nearby_hostiles: 6
+  tracking_hostiles: 5
+  fall_distance: 0.0
+  fall_type: caída libre (1 bloques)
+- reason: Vida baja (4/20), 3 hostiles persiguiendo
+  health: 4/20
+  nearby_hostiles: 3
+  location: world, -30, 65, 5
+  tracking_hostiles: 3
+  fall_distance: 0.0
+  uuid: 42f5e18b-a381-4620-ba73-1416b5cd1b94
+  fall_type: caída libre (1 bloques)
+  timestamp: 1753231148
+  player: NeonTheThinker
